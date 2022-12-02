@@ -1,0 +1,57 @@
+/*body{background-color: blue;}
+*/
+.navbar li{font-size: 18px;}
+.navbar-brand span:hover{text-shadow:0 2px 5px rgba(0, 0, 0, .3); !important;}
+.co{width: 30px;
+height: 30px;
+padding: auto;
+border-radius: 50%;
+background-color: white;}
+.back{background-attachment: fixed;
+background-size: cover;
+height: 300px;}
+.thanks .card{position: relative !important;
+overflow: hidden !important;}
+
+.thanks .card::before{position: absolute !important;
+content: ''!important;
+width: 80% !important;
+height:220% !important;
+background-color: rgba(0,90,0,.42)!important;
+bottom: -70% !important;
+right: 100% !important;
+z-index: 1 !important;
+transform: rotate(25deg) !important ;
+transform-origin: center top 0 !important;
+transition: .5s !important;}
+
+
+
+.thanks .card:hover::before{right:-100% !important;
+}
+
+#accordion a:checed i{transform: rotate(180deg);
+} 
+#accordion a.collapsed i{transform: rotate(-180deg);}
+
+
+.back1{background-image: url(../images/b2.jpg);}
+.back2{background-image: url(../images/b3.png);}
+footer{margin-bottom: -25px;}
+footer .e{padding-bottom: 20px;}
+.carousel-item img{width: 100%;
+height: 100%;}
+
+
+.carousel-inner h1{text-shadow: 2px 2px black;}
+.carousel-inner .carousel-caption{background-color: rgba(250,250,250, .1);
+border-radius: 8px;}
+.card-header:hover{background-color: darkgrey;
+}
+/*.card-header:focus{background-color: green;}*//
+
+
+
+
+
+
